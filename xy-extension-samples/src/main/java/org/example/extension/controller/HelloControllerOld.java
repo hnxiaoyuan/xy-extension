@@ -12,6 +12,7 @@ import org.springframework.web.bind.annotation.RestController;
 import javax.annotation.Resource;
 import java.util.Objects;
 
+@RequestMapping("/old")
 @RestController
 public class HelloControllerOld {
 
