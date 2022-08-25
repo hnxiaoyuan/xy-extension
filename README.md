@@ -2,6 +2,9 @@
 A spring extension
 
 ## 概述
+<code>xy-extension-samples</code> 使用示例
+<code>xy-extension-spring-boot-starter</code>
+
 参照alibaba COLA的扩展组件[cola-component-extension-starter](https://github.com/alibaba/COLA/tree/master/cola-components/cola-component-extension-starter)
 并结合项目实际应用, 
 简化版的扩展组件, 旨在通过统一的扩展形式来支撑业务的变化, 也是策略模式的一种应用,
