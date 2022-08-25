@@ -2,7 +2,8 @@
 A spring extension
 
 ## 概述
-<code>xy-extension-samples</code> 使用示例
+<code>xy-extension-samples</code> 为使用示例
+
 <code>xy-extension-spring-boot-starter</code>
 
 参照alibaba COLA的扩展组件[cola-component-extension-starter](https://github.com/alibaba/COLA/tree/master/cola-components/cola-component-extension-starter)
