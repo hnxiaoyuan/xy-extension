@@ -13,7 +13,7 @@ public class ExtensionRepository {
     public void put(ExtensionCoordinate coordinate, Object extensionPoint){
         final Object preValue = this.extensionRepo.put(coordinate, extensionPoint);
         if (preValue != null) {
-            throw new RuntimeException("Duplicate registration is not allowed for :" + coordinate);
+            throw new IllegalArgumentException("Duplicate registration is not allowed for :" + coordinate);
         }
     }
 

@@ -3,6 +3,9 @@ package org.example.extension.service;
 import com.xyspring.extension.Extension;
 import org.springframework.stereotype.Service;
 
+/**
+ * @author xiaoyuan
+ */
 @Extension(scenario = "china")
 @Service
 public class ChineseHelloServiceImpl implements HelloService {

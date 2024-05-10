@@ -3,8 +3,11 @@ package com.xyspring.extension;
 import java.util.function.Consumer;
 import java.util.function.Function;
 
+/**
+ * @author xiaoyuan
+ */
 public class ExtensionExecutor {
-    private ExtensionRepository extensionRepository;
+    private final ExtensionRepository extensionRepository;
 
     public ExtensionExecutor(ExtensionRepository extensionRepository) {
         this.extensionRepository = extensionRepository;

@@ -5,7 +5,7 @@ import org.springframework.stereotype.Service;
 
 @Extension(scenario = "us")
 @Service
-public class EnglishHelloServiceImpl implements HelloService{
+public class EnglishHelloServiceImpl implements HelloService {
 
     @Override
     public void sayHello() {

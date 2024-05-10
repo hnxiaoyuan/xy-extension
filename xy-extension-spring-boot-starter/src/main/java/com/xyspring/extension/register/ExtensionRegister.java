@@ -8,6 +8,9 @@ import org.springframework.aop.support.AopUtils;
 import org.springframework.core.annotation.AnnotatedElementUtils;
 import org.springframework.util.ClassUtils;
 
+/**
+ * @author xiaoyuan
+ */
 public class ExtensionRegister {
     private final ExtensionRepository extensionRepository;
 

@@ -4,6 +4,9 @@ import com.xyspring.extension.configuration.ExtensionConfiguration;
 import org.springframework.context.annotation.ImportSelector;
 import org.springframework.core.type.AnnotationMetadata;
 
+/**
+ * @author xiaoyuan
+ */
 public class ExtensionConfigurationSelector implements ImportSelector {
 
     @Override

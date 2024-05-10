@@ -7,6 +7,9 @@ import com.xyspring.extension.register.ExtensionRegister;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
+/**
+ * @author xiaoyuan
+ */
 @Configuration
 public class ExtensionConfiguration {
 

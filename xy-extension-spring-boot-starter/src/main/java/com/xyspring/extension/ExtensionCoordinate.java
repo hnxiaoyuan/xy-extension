@@ -7,8 +7,8 @@ import java.util.Objects;
  * @author xiaoyuan
  */
 public class ExtensionCoordinate {
-    private String bizCode;
-    private Class<?> extensionPointClass;
+    private final String bizCode;
+    private final Class<?> extensionPointClass;
 
     public ExtensionCoordinate(Class<?> extensionPointClass, String bizCode) {
         this.bizCode = bizCode;
@@ -17,8 +17,12 @@ public class ExtensionCoordinate {
 
     @Override
     public boolean equals(Object o) {
-        if (this == o) return true;
-        if (o == null || getClass() != o.getClass()) return false;
+        if (this == o) {
+            return true;
+        }
+        if (o == null || getClass() != o.getClass()) {
+            return false;
+        }
         ExtensionCoordinate that = (ExtensionCoordinate) o;
         return bizCode.equals(that.bizCode) && extensionPointClass.equals(that.extensionPointClass);
     }
